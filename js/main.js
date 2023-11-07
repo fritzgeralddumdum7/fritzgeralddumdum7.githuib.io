@@ -269,9 +269,10 @@
     fixedContentPos: false
   });
 
-
-
-
+  $(".hire-me-btn").click(function() {
+	var gmailUrl = 'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZBcZRqtqknSTSMKNzTPzqhWkwHsglLswcbRZnxtrsHHWzRNmrrCwjcGWwQbMVgjVhWCJM';
+	window.open(gmailUrl, '_blank');
+  });
 
 })(jQuery);
 
